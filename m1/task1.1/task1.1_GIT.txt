@@ -1,0 +1,17 @@
+bd79288 HEAD@{0}: commit: Final commit
+96fbdf6 HEAD@{1}: merge develop: Fast-forward
+cd91599 HEAD@{2}: checkout: moving from develop to master
+96fbdf6 HEAD@{3}: commit (merge): Bug fix
+2baa270 HEAD@{4}: merge images: Fast-forward
+7f6e8a8 HEAD@{5}: checkout: moving from styles to develop
+d07900d HEAD@{6}: commit: Change index
+0f2536f HEAD@{7}: commit: Add styles
+7f6e8a8 HEAD@{8}: checkout: moving from develop to styles
+7f6e8a8 HEAD@{9}: checkout: moving from images to develop
+2baa270 HEAD@{10}: commit: Add code with images
+7c7723b HEAD@{11}: commit: Add images
+7f6e8a8 HEAD@{12}: checkout: moving from develop to images
+7f6e8a8 HEAD@{13}: commit: Create index.html
+cd91599 HEAD@{14}: checkout: moving from master to develop
+cd91599 HEAD@{15}: commit: Init commit
+ab7725a HEAD@{16}: clone: from git@github.com:shin4matik/DevOps_online_Lviv_2022Q1Q2.git
