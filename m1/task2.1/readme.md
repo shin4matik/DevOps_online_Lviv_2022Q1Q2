@@ -42,3 +42,44 @@ Source: https://www.vmware.com/topics/glossary/content/virtual-machine.html
 
 
 ### PART 3. WORK WITH VAGRANT
+
+### Install Vagrant
+```bash
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+sudo apt-get update && sudo apt-get install vagrant
+```
+
+### Hypervisors conflicts
+```bash
+$ lsmod | grep kvm
+$ echo 'blacklist kvm-intel' >> /etc/modprobe.d/blacklist.conf
+```
+
+### Simple start
+vagrant init ubuntu/bionic64
+
+>Vagrantfile
+
+```bash
+Vagrant.configure("2") do |config|
+  config.vm.box = "hashicorp/bionic64"
+end
+```
+
+### Basic commands
+vagrant up
+
+vagrant status
+
+vagrant ssh-config
+
+vagrant ssh default
+
+vagrant halt
+
+vagrant destroy -f
+
+>Example
+
+![image](images/vagrant1.png "image")
