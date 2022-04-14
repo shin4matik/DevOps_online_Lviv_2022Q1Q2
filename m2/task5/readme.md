@@ -24,3 +24,17 @@
 ### Configure NAT
 
 ![VB](images/nat.png "VB")
+
+
+## Info
+
+* DHCP
+https://www.youtube.com/watch?v=j3wsYskgdAs
+
+https://www.tecmint.com/install-dhcp-server-in-ubuntu-debian/
+
+
+
+* NAT
+
+https://kifarunix.com/configure-ubuntu-20-04-as-linux-router/
