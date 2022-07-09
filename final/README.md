@@ -1,18 +1,3 @@
-##Jenkins Master
+## Final project
 
-* Private IPv4 addresses: 	172.31.21.174
-
-* Elastic IP addresses:		54.225.220.1
-
-```bash
-ssh -i "/home/vborys/Downloads/keys/ubuntu.pem" ubuntu@54.225.220.1
-```
-
-## DockerInstance1
-* Private IPv4 addresses: 	172.31.91.55
-* Elastic IP addresses:		54.196.70.98
-
-
-```bash
-ssh -i "/home/vborys/Downloads/keys/ubuntu.pem" ubuntu@54.196.70.98
-```
+### Presentation [click to start](https://www.canva.com/design/DAFE5svovhE/ZlDZa4oAS9U0oNOXDI1Eyg/view?utm_content=DAFE5svovhE&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
